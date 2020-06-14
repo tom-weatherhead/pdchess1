@@ -1,0 +1,101 @@
+(
+  100 start
+  (12 c2_c4    // English opening
+    (1 b8_c6 b1_c3 e7_e5 g2_g3 g7_g6 f1_g2 f8_g7 d2_d3 d7_d6 e2_e4) // Bottvinik System
+    (4 c7_c6)
+    (5 e7_e5)
+    (1 e7_e6 g1_f3 d7_d5 e2_e3 g8_f6 b2_b3 f8_e7 c1_b2 O-O d2_d4 b7_b6)
+    (1 g8_f6 g1_f3 e7_e6 d2_d4 d7_d5 e2_e3 c7_c5 b1_c3 b8_c6 c4_d5 e6_d5)
+  )
+  (41 d2_d4
+    (16 d7_d5)
+    (1 d7_d6 g1_f3 c8_g4 c2_c4 b8_d7 b1_c3 e7_e5 e2_e3 c7_c6 h2_h3)
+    (1 e7_e6 c2_c4 d7_d5 b1_c3 f8_e7 g1_f3 g8_f6 c1_f4 O-O)
+    (1 f7_f5 g2_g3 g8_f6 f1_g2 g7_g6 c2_c4)
+    (22 g8_f6)
+  )
+  (1 e2_e3    // Van't Kruijs Opening
+  )
+  (62 e2_e4
+    (33 c7_c5     // Sicilian Defence
+      (3 c2_c3    // Alapin's Variation
+        (2 g8_f6 e4_e5 f6_d5)
+        (1 d7_d5)
+      )
+      (3 b1_c3
+        (1 d7_d6 f2_f4 a7_a6 g1_f3 b7_b5 g2_g3 c8_b7)
+        (2 b8_c6
+          (1 g1_e2 g8_f6 d2_d4 c5_d4 e2_d4 e7_e5)
+          (1 g2_g3 g7_g6 f1_g2 f8_g7 d2_d3 d7_d6)
+        )
+      )
+      (25 g1_f3
+        (7 b8_c6
+          (1 f1_b5 g7_g6 b5_c6 d7_c6 h2_h3 e7_e5)
+          (6 d2_d4 c5_d4 f3_d4
+            (1 g7_g6 c2_c4 f8_g7)
+            (1 e7_e6 b1_c3 d7_d6)
+            (4 g8_f6 b1_c3
+              (1 d7_d6 c1_g5 e7_e6)
+              (3 e7_e5 d4_b5 d7_d6
+                (1 c3_d5 f6_d5 e4_d5 c6_e7 c2_c3 e7_f5)
+                (2 c1_g5 a7_a6)
+              )
+            )
+          )
+        )
+        (14 d7_d6 d2_d4 c5_d4 f3_d4 g8_f6 b1_c3
+          (11 a7_a6
+            (4 c1_e3 e7_e6    // Short-Nunn Attack
+              (2 g2_g4 h7_h6)       // Keres Attack
+              (2 f1_e2)
+            )
+            (2 f1_c4 e7_e6 c4_b3) // Sozin Attack
+            (4 f2_f4)
+            (1 c1_g5)
+          )
+          (3 b8_c6)
+        )
+        (5 e7_e6 d2_d4 c5_d4 f3_d4
+          (1 b8_c6 b1_c3 d8_c7)
+          (1 d8_b6 d4_b3 a7_a6)
+          (3 g8_f6 b1_c3 b8_c6
+            (1 g2_g3 d7_d5)
+            (2 d4_b5 d7_d6 c1_f4 e7_e5 f4_g5 a7_a6 b5_a3) // Sicilian Pelikan
+          )
+        )
+      )
+      (1 g2_g3 d7_d5 e4_d5 d8_d5 g1_f3 c8_g4 f1_g2)
+    )
+    (3 c7_c6)
+    (1 b8_c6 d2_d4 e7_e5 d4_e5 c6_e5 g1_f3 f8_b4) // Nimzovich Defence
+    (1 d7_d6 d2_d4 g8_f6 b1_c3 g7_g6 f2_f3 c7_c6 g1_e2 b8_d7 c1_e3 b7_b5)
+    (17 e7_e5)
+    (5 e7_e6)
+    (2 g7_g6 d2_d4 f8_g7 b1_c3
+      (1 c7_c5 d4_c5 d8_a5 g1_f3 g7_c3 b2_c3 a5_c3)
+      (1 c7_c6 g1_f3 d7_d6 h2_h3 g8_f6 a2_a4 O-O c1_e3 b8_d7)
+    )
+  )
+  (10 g1_f3
+    (1 c7_c5 c2_c4 b8_c6 b1_c3 g8_f6 d2_d4 c5_d4 f3_d4 e7_e6 a2_a3)
+    (2 d7_d5
+      (1 c2_c4 e7_e6 d2_d4 g8_f6 b1_c3 d5_c4 d1_a4 b8_d7 e2_e4 a7_a6)
+      (1 g2_g3 g8_f6 f1_g2 e7_e6 O-O f8_e7 d2_d3 b7_b6)
+     )
+    (7 g8_f6 c2_c4
+      (1 c7_c5 b1_c3 b8_c6 e2_e3 e7_e6 d2_d4 d7_d5 c4_d5 e6_d5)
+      (3 e7_e6 b1_c3
+        (1 b8_c6 e2_e4 d7_d5 e4_e5 d5_d4)
+        (1 f8_b4 g2_g3 O-O f1_g2 c7_c5 O-O b8_c6)
+      )
+      (3 g7_g6
+        (1 b2_b3 f8_g7 c1_b2 d7_d6 g2_g3 e7_e5 f1_g2 O-O O-O)
+        (2 b1_c3
+          (1 d7_d5 c4_d5 f6_d5 d1_b3 d5_b6)
+          (1 f8_g7 e2_e4 d7_d6 d2_d4 O-O)
+        )
+      )
+    )
+  )
+)

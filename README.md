@@ -2,7 +2,7 @@
 
 pdchess1 : Portable Didactic Chess, incarnation number 1.
 
-A rudimentary chess game application with a command-line interface.
+A rudimentary chess application with a command-line interface.
 
 [![build status](https://secure.travis-ci.org/tom-weatherhead/pdchess1.svg)](https://travis-ci.org/tom-weatherhead/pdchess1)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tom-weatherhead/pdchess3/blob/master/LICENSE)
@@ -29,13 +29,13 @@ $ ./pdchess
 
 A fairly standard command syntax is used to specify moves; e.g.:
 
-- e2-e4 : An initial pawn move by White
-- Ng8-f6 : An initial knight move by Black
-- Qa1xd8 : A capturing move by a queen
+- e2 e4 : An initial pawn move by White
+- g8 f6 : An initial knight move by Black
 - O-O : Castle on the kingside
 - O-O-O : Castle on the queenside
 
-Type 'exit' at the move prompt to end the game and exit the app.
+- :? : Help
+- :q : Quit
 
 ## Example
 

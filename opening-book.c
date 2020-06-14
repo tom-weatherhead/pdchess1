@@ -1,4 +1,4 @@
-// pdc_open.cpp
+// opening-book.c
 
 #include <stdlib.h>
 #include <stdio.h>

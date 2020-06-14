@@ -1,4 +1,4 @@
-// pdcmvcnv.cpp - (C) 1993-1995 by Tom Weatherhead
+// move-conversion.c - (C) 1993-1995 by Tom Weatherhead
 
 #include <stdlib.h>
 #include <stdio.h>

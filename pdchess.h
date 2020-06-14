@@ -37,8 +37,8 @@
 #define DEFEAT_VALUE		        (-VICTORY_VALUE)
 
 #define PAWN_TOKEN		'P'
-#define KNIGHT_TOKEN		'N'
-#define BISHOP_TOKEN		'B'
+#define KNIGHT_TOKEN	'N'
+#define BISHOP_TOKEN	'B'
 #define ROOK_TOKEN		'R'
 #define QUEEN_TOKEN		'Q'
 #define KING_TOKEN		'K'
@@ -70,10 +70,10 @@ typedef char bool;
 
 #define is_checkmate(o)	(best_move(NULL,o,1,0,0)<=DEFEAT_VALUE?true:false)
 
-typedef enum {
-	BS_CHOOSE_SRC,
-	BS_CHOOSE_DST
-} ButtonStateType;
+// typedef enum {
+// 	BS_CHOOSE_SRC,
+// 	BS_CHOOSE_DST
+// } ButtonStateType;
 
 typedef enum {
 	PT_HUMAN,
@@ -195,7 +195,7 @@ typedef struct {
 
 // Prototypes
 
-// pdchess.cpp
+// pdchess.c
 void free_stuff( shared_type * );
 unsigned int army_value( army_type * );
 bool is_castle_valid( army_type *, move_type_type );
@@ -207,31 +207,31 @@ void backup( army_type * );
 bool is_valid_move( army_type *, move_type * );
 bool is_draw( army_type * );
 
-// pdcmoves.cpp
+// moves.c
 bool human_move( army_type ** );
 bool computer_move( army_type ** );
 
-// pdc_look.cpp
+// lookahead.c
 void undo_move( mod_data_type * );
 int best_move( army_type *, army_type *, unsigned int, int, int);
 
-// pdc_open.cpp
+// opening-book.c
 void open_open_book( shared_type * );
 const char * open_get_move( shared_type * );
 void open_match_move( shared_type *, move_type * );
 
-// pdc_disk.cpp
-bool load_game( army_type [], army_type ** );
-bool save_game( army_type [] );
+// disk.c
+// bool load_game( army_type [], army_type ** );
+// bool save_game( army_type [] );
 
-// pdcmvcnv.cpp
+// move-conversion.c
 const char * eat_spaces( const char * );
 bool coord_ext_to_int( const char *, unsigned int *, unsigned int * );
 bool move_ext_to_int( const char *, move_type * );
 const char * move_int_to_ext( move_type * );
 void print_move_rec( shared_type * );
 
-// pdc_init.cpp
+// init.c
 void init_board( army_type * );
 
 // ******** End of pdchess.h ********

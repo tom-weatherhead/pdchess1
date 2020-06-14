@@ -1,4 +1,4 @@
-// pdc_init.cpp
+// init.c
 
 #include <stdlib.h>
 #include <stdio.h>

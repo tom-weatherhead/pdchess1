@@ -1,4 +1,4 @@
-// pdc_look.cpp
+// lookahead.c
 
 #include <stdlib.h>
 #include <stdio.h>

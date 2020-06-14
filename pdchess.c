@@ -1,4 +1,4 @@
-// pdchess.cpp
+// pdchess.c
 
 #include <stdlib.h>
 #include <stdio.h>

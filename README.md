@@ -1,3 +1,7 @@
+<div>
+	<img src="assets/pdchess.128x128.icon.png" />
+</div>
+
 # pdchess1
 
 pdchess1 : Portable Didactic Chess, incarnation number 1.

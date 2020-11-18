@@ -1,0 +1,11 @@
+language: c
+os:
+  - linux
+dist: xenial
+compiler:
+  - gcc
+branches:
+  only:
+    - master
+script:
+  - make

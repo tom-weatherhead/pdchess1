@@ -6,12 +6,14 @@ os:
 dist: xenial
 osx_image: xcode11
 # Xenial ships with GCC 5.4.0
+# The xcode11 osx_image includes gcc 9.3.0
 compiler:
   - gcc
 branches:
   only:
     - master
+# For C++ projects: CC=gcc-9 && CXX=g++-9
 before_install:
-  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then CC=gcc-9 && CXX=g++-9 ; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then CC=gcc-9 ; fi
 script:
   - make

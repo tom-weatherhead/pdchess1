@@ -20,8 +20,6 @@ A rudimentary chess application with a command-line interface.
 [![license][license-badge-image]][license-url]
 [![FOSSA Status][fossa-badge-image]][fossa-badge-url]
 
-<!-- [![install size][install-size-badge-image]][install-size-url] -->
-
 ## Building `pdchess1`
 
 `gcc` must be present in order to build the project.

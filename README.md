@@ -17,9 +17,10 @@ A rudimentary chess application with a command-line interface.
 [![pkg dependents][pkg-dependents-badge-image]][pkg-dependents-url]
 [![commits][commits-badge-image]][commits-url]
 [![last commit][last-commit-badge-image]][last-commit-url]
-<!-- [![install size][install-size-badge-image]][install-size-url] -->
 [![license][license-badge-image]][license-url]
 [![FOSSA Status][fossa-badge-image]][fossa-badge-url]
+
+<!-- [![install size][install-size-badge-image]][install-size-url] -->
 
 ## Building `pdchess1`
 

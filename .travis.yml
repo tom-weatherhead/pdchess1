@@ -12,6 +12,6 @@ branches:
   only:
     - master
 before_install:
-  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew install gcc && CC=gcc-10 && CXX=g++-10 ; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then CC=gcc-9 && CXX=g++-9 ; fi
 script:
   - make
